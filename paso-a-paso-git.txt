@@ -1,0 +1,40 @@
+echo "# primer-repositorio" >> README.md
+git init
+git status
+
+/*
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        README.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+*/
+
+git add README.md
+
+/*
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+
+Jachu@DESKTOP-18G7TFH MINGW64 /d/primer-repositorio (master)
+*/
+git status
+/* Esta siguiendo los cambios del archivo README.md en el "STAGE"
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   README.md
+
+
+Jachu@DESKTOP-18G7TFH MINGW64 /d/primer-repositorio (master)
+*/
+git commit -m "first commit"
+git branch -M main (Opcional si se quiere cambiar el nombre de la rama)
+git remote add origin https://github.com/jachu-repo/primer-repositorio.git
+git push -u origin master
