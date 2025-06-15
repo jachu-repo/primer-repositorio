@@ -38,3 +38,11 @@ git commit -m "first commit"
 git branch -M main (Opcional si se quiere cambiar el nombre de la rama)
 git remote add origin https://github.com/jachu-repo/primer-repositorio.git
 git push -u origin master
+
+
+
+----------------------------------------
+…or push an existing repository from the command line
+git remote add origin https://github.com/jachu-repo/primer-repositorio.git
+git branch -M main
+git push -u origin main
